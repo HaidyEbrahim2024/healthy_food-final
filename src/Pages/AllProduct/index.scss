@@ -1,0 +1,85 @@
+.AllProduct {
+    img {
+        width: 100%;
+        margin-bottom: 3rem;
+        position: relative;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 2rem;
+
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            margin-bottom: 2rem;
+
+        }
+
+
+    }
+
+    .adress {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+
+        @media screen and (max-width: 767px) {
+            top: 17%;
+            left: 15%;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            top: 30%;
+            left: 30%
+        }
+
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            // color: #e98c81;
+            color: black;
+
+            @media screen and (max-width: 767px) {
+                font-size: 20px;
+            }
+
+            @media screen and (min-width: 768px) and (max-width: 992px) {
+                font-size: 35px;
+
+            }
+
+        }
+    }
+
+    .links {
+        .link_orders {
+            position: absolute;
+            top: 55%;
+            left: 45%;
+            @media screen and (max-width: 767px) {
+                top: 23%;
+                     }
+                     @media screen and (min-width: 768px) and (max-width: 992px) {
+                        left: 45%;
+                        top: 40%;
+
+                     }
+             
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+
+
+}
